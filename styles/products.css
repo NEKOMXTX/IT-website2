@@ -11,15 +11,13 @@ body {
   flex: 1;
 }
 
-.btn.btn-primary {
-    color: #ebe7d4;
-    background-color:black;
-    --bs-btn-border-color: unset;
-    --bs-btn-border-radius: unset;
-    --bs-btn-active-bg: rgb(255, 255, 255);
-    --bs-btn-active-color: #ebe7d4;
-    /* Другие стили */
-  }
+#container2 {
+  background-color: black;
+}
+#navbar {
+  background-color: #00BFFF;
+}
+
 
 .col {
     padding-top: 24px;

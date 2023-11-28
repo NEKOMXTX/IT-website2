@@ -9,7 +9,7 @@ body {
 
 .container {
   flex: 1;
-  
+  padding-top: 1em;
 }
 
 #container2 {
@@ -21,13 +21,7 @@ body {
 
 .col {
   width: 100%;
-  max-width: 500px;
   opacity: 0;
-}
-
-img {
-
-  background-color: #ebe7d4;
 }
 
 .my-5 {

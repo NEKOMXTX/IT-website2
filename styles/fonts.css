@@ -11,7 +11,7 @@
   }
 
   h1 {
-    font-size: 325%;
+    font-size: 250%;
     font-family: 'Roboto', sans-serif;
     font-weight: 900; 
     line-height: 1;
@@ -54,10 +54,6 @@
     font-family: 'Roboto', sans-serif; 
     font-weight: 300;
     color: white;
-  }
-
-  img {
-    background-color: #e7e2cb;
   }
 
   .col-md-3#info a {

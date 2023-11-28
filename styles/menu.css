@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  flex: 1;
+  opacity: 0;
 }
 
 #container2 {
@@ -23,35 +23,43 @@ body {
   background-color: #00BFFF;
 }
 
-
-h4 {
-  margin-top: 3rem;
+.slider-container {
+  width: 100%;
+  overflow: hidden;
 }
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
 
 .d-flex {
   display: unset !important;
 }
 
-.card-footer {
-  background-color: unset;
-  border-top: 0;
-}
-
-.my-5 {
-  padding: 0px 24px;
-  margin-bottom: 0!important;
-}
-
-.card:hover {
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2); /* Тень при наведении */
-  transform: scale(1.05); /* Увеличение при наведении */
-  z-index: 1;
-}
-
-.col-md-6 {
-  opacity: 0;
-}
-
 footer {
   flex-shrink: 0;
+}
+
+.slide img {
+ max-height: 700px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-container button {
+  background-color: #00BFFF;
+  color: white;
+  width: 8em;
+  border: 0;
 }

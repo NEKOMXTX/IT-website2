@@ -19,6 +19,7 @@ app.use(express.static('styles'));
 app.use(express.static('images'));
 
 app.use(express.static('icons'));
+app.use(express.static('menu_pics'));
 
 app.use(express.static('scripts'));
 

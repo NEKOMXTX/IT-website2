@@ -16,6 +16,14 @@ body {
     margin-bottom: 30px;
   }
 
+#container2 {
+  background-color: black;
+}
+#navbar {
+  background-color: #00BFFF;
+}
+
+
 h4 {
   margin-top: 3rem;
 }

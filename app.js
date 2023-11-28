@@ -21,11 +21,14 @@ const server = http.createServer((req, res) => {
     case '/':
       basePath = createPath('homepage');
       break;
-    case '/products':
-      basePath = createPath('products');
+    case '/menu':
+      basePath = createPath('menu');
       break;
     case '/contact':
       basePath = createPath('contact');
+      break;
+    case '/promo':
+      basePath = createPath('promo');
       break;
     default:
       basePath = createPath('error');

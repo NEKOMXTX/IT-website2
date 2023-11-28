@@ -15,7 +15,12 @@ body {
 
   padding: 0px 0px;
   }
-
+#container2 {
+  background-color: black;
+}
+#navbar {
+  background-color: #00BFFF;
+}
 h4 {
   margin-top: 3rem;
 }
@@ -27,13 +32,6 @@ h4 {
 .card-footer {
   background-color: unset;
   border-top: 0;
-}
-
-
-
-img {
-
-  background-color: #ebe7d4;
 }
 
 .my-5 {

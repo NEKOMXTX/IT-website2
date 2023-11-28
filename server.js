@@ -26,19 +26,18 @@ app.get('/', (req, res) => {
     res.sendFile(createPath('homepage'));
 });
 
-app.get('/products', (req, res) => {
-    res.sendFile(createPath('products'));
+app.get('/menu', (req, res) => {
+    res.sendFile(createPath('menu'));
 });
 
-app.get('/services', (req, res) => {
-    res.sendFile(createPath('services'));
+app.get('/promo', (req, res) => {
+    res.sendFile(createPath('promo'));
 });
 
 app.get('/contact', (req, res) => {
     res.sendFile(createPath('contact'));
 });
 
-/*
 app.use((req, res) => {
     res
         .status(404)

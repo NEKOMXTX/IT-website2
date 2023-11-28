@@ -9,6 +9,14 @@ body {
 
 .container {
   flex: 1;
+  
+}
+
+#container2 {
+  background-color: black;
+}
+#navbar {
+  background-color: #00BFFF;
 }
 
 .col {
@@ -16,7 +24,6 @@ body {
   max-width: 500px;
   opacity: 0;
 }
-
 
 img {
 

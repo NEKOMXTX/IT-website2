@@ -41,6 +41,7 @@ h4 {
 
 .card {
   opacity: 0;
+  --bs-card-bg: none;
 }
 
 .card:hover {
@@ -53,7 +54,7 @@ h4 {
 
 .copyButton {
   border-style: none;
-  background-color: #f7f5ee
+  background-color: black
 }
 
 .copyButton {

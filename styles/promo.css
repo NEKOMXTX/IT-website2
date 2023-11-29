@@ -23,6 +23,10 @@ body {
     padding-top: 24px;
     opacity: 0;
 }
+.col img {
+  max-height: 20rem;
+  min-height: 20rem;
+}
 
 .card:hover {
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2); /* Тень при наведении */
@@ -42,7 +46,7 @@ body {
     height: 100%; /* Задаем фиксированную высоту для элемента .card */
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #00BFFF;
     border-radius: 10px;
   }
 
@@ -88,6 +92,7 @@ body {
 .card-title {
   padding: 20px;
   padding-bottom: 0px;
+  color: white;
 }
 
 a {
